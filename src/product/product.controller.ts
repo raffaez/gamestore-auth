@@ -8,8 +8,8 @@ import {
   Put,
 } from '@nestjs/common/decorators';
 import { DeleteResult } from 'typeorm';
-import { Product } from '../entities/product.entity';
-import { ProductService } from '../services/product.service';
+import { Product } from './product.entity';
+import { ProductService } from './product.service';
 
 @Controller('/products')
 export class ProductController {

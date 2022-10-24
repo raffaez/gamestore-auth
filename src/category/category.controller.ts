@@ -11,8 +11,8 @@ import {
   Put,
 } from '@nestjs/common';
 import { DeleteResult } from 'typeorm';
-import { Category } from '../entities/category.entity';
-import { CategoryService } from '../services/category.service';
+import { Category } from './category.entity';
+import { CategoryService } from './category.service';
 
 @Controller('/categories')
 export class CategoryController {
